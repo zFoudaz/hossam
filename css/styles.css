@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home a{
+    font-size: 45px;
+    margin: 0 10px;
+    color: black;
+}
+.home i {
+    transition: all 400ms;
+}
+.home i:first-child{
+    margin-left: 0;
+}
+.home i:hover{
+    transform: scale(1.3);
+}
+.home i.fa-facebook:hover{
+    color: rgb(24, 119, 242);
+}
+.home i.fa-instagram:hover{
+    color: blueviolet;
+}
+.home i.fa-linkedin:hover{
+    color: rgb(10, 102, 194);
+}
+.home i.fa-github:hover{
+    color: white;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: black;
+}
+#contact a{
+    text-decoration: none;
+    color: rgb(170, 97, 0);
+    transition: all 400ms;
+}
+#contact a:hover{
+    color: wheat;
+}
